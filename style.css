@@ -41,7 +41,17 @@ p{
     border-radius: 5px;
     color: white;
     font-weight: 700;
-    width: 15%;
+    width: 13%;
     margin-top: 20px;
     
+}
+
+.half-width-1{
+    width: 40%;
+    padding: 5% 5%;
+    
+    justify-content: center;
+}
+.half-width-1 p{
+    margin-bottom: 20px;
 }
