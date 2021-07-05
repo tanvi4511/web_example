@@ -55,3 +55,43 @@ p{
 .half-width-1 p{
     margin-bottom: 20px;
 }
+.experience{
+    display: flex;
+    
+    width: 100%;
+}
+.ex-con h1:nth-child(1){
+    text-align: center;
+    margin-top: 0%;
+}
+.experience div{
+    box-shadow: 5px 7px 40px gray;
+    margin: 2% auto;
+}
+.exp-div{
+   display: flex;
+   flex-direction: column;
+  box-shadow: 2px 2px 2px 2px;
+  padding: 5% 5%;
+  width: 30%;
+}
+.exp-div h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 5% 5%;
+}
+.ex-con{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
